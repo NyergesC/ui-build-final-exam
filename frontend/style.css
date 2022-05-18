@@ -1,0 +1,151 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+a{
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* CSS RESET IS OVER */
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; 
+    padding: 0 20px;
+    background-color: #f8f7f3;
+    /* font-family: 'Overpass', sans-serif; */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: #1a24fb;
+    color: #f8f7f3;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.header h1{
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.header button{
+  font-size: 24px;
+  padding: 0 5px;
+}
+
+.container{
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 20px;
+    margin-top: 60px;
+    
+}
+
+.cards{
+    width: 380px;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+    color: #1a24fb;
+    border: 1px #1a24fb solid;
+
+}
+
+.number{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: -5%;
+    font-family: 'Overpass', sans-serif;
+    color: #1a24fb;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 0;
+
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 15px 0 25px 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+.sub{
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -6%;
+  left:0%;
+  width: 100%;
+  height: 18px;
+  font-size: 14px;
+}
+
+.button-container i {
+  font-size: 18px;
+} 
+
+.button-container:hover{
+  background-color: #1a24fb;
+  color: #f8f7f3;
+}
